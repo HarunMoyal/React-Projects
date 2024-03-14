@@ -1,0 +1,107 @@
+.App{
+    text-align: center;
+}
+.board{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo{
+    width: 33%;
+    height: 400px;
+}
+.doing{
+    width: 33%;
+    height: 400px;
+}
+.done{
+    width: 33%;
+    height: 400px;
+}
+.todo-col{
+    background-color:rgb(202, 202, 97);
+    padding: 10px 0px;
+    
+}
+.doing-col{
+    background-color: lightgreen;
+    padding: 10px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.done-col{
+    background-color:rgb(45, 184, 218);
+    padding: 10px 0px;
+    
+}
+.task-item{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border: 0.7px solid rgb(187, 167, 167);
+    border-radius: 5px;
+    padding: 7px;
+    cursor: grab;
+    font-size: 20px;
+
+}
+.task-item:hover{
+    background-color: lightgray;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+
+}
+.btn:hover{
+    background-color: purple;
+    cursor: pointer;
+    border-radius: 50px;
+}
+input{
+    width: 250px;
+    height: 35;
+    font-size: 25px;
+    padding: 5px;
+}
+.totaltasks{
+    color: rgb(239, 242, 242);
+    width: 110px;
+    border-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.totaltasks:hover{
+    background-color: white;
+    color: black;
+    border-color: rgb(5, 5, 5);
+    border-radius: 30px;
+    border-style: dotted;
+}
+.todolenght{
+    width: 170px;
+    background-color: rgb(202, 202, 97);
+    margin-left: 100px;
+    font-weight: solid;
+
+}
+.doinglength{
+    width: 170px;
+    background-color: lightgreen;
+    margin-left: 100px;
+    font-weight: solid;
+
+}
+.donelength{
+    width: 170px;
+    background-color:rgb(45, 184, 218);
+    margin-left: 100px;
+    font-weight: solid;
+
+}
